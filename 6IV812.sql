@@ -1,0 +1,17 @@
+CREATE DATABASE 6IV812;
+USE  6IV812;
+
+CREATE TABLE usuario (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR(100) NOT NULL,
+	nombre2 VARCHAR(100) NOT NULL,
+    nombre3 VARCHAR(100) NOT NULL,
+    nombre4 VARCHAR(100) NOT NULL,
+    nombre5 VARCHAR(100) NOT NULL,
+    nombre6 VARCHAR(100) NOT NULL,
+    nombre7 VARCHAR(100) NOT NULL,
+    nombre8 VARCHAR(100) NOT NULL
+);
+
+
+select * from usuario;
